@@ -1,6 +1,6 @@
 <h1>Using Virtual Machines, Active Directory, Domain Controller, Users and Computers</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+ ### [YouTube Demonstration]
 
 <h2>Description</h2>
 Lab consists of a walkthrough of an overview of how to use a virtual machine to use Server 2016, install Active Directory to a computer, Assign a Domain Controller, Navigate Users and Computers to Add another User, and set up their account with user name and password. 
