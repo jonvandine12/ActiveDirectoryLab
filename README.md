@@ -3,7 +3,7 @@
  ### [YouTube Demonstration]
 
 <h2>Description</h2>
-Lab consists of a walkthrough of an overview of how to use a virtual machine to use Server 2016, install Active Directory to a computer, Assign a Domain Controller, Navigate Users and Computers to Add another User, and set up their account with user name and password. 
+Lab consists of a walkthrough of how to use a virtual machine to run Server 2016, install Active Directory to a computer, Assign a Domain Controller, Navigate Users and Computers to Add another User, and set up their account with user name and password. 
 <br />
 
 <h2>Tools Used</h2>
