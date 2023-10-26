@@ -3,8 +3,7 @@
  ### [YouTube Demonstration]
 
 <h2>Description</h2>
-Lab consists of a walkthrough of how to use a virtual machine to run Server 2016, install Active Directory to a computer, Assign a Domain Controller, Navigate Users and Computers to Add another User, and set up their account with user name and password. 
-<br />
+Lab consists of a walkthrough of how to use a virtual machine to run Server 2019, install Active Directory to a computer, Assign a Domain Controller, Navigate Users and Computers to Add another User, add many users (1000) with power shell, and set up their account with user name and password. 
 
 <h2>Tools Used</h2>
 
@@ -19,8 +18,11 @@ Lab consists of a walkthrough of how to use a virtual machine to run Server 2016
 
 <h2>Program walk-through:</h2>
 
+Overview: 
+We want the client to be able to connect to the internet through the DC through a created NIC that will allow flow through the internet NIC. To do this, I have created AD DS (active directory domain server) equipped with RAS NAT so that the client can connect.  We also have to set up a DHCP server with scope information to allow windows 10 clients to get an IP address to browse internet through private internal network (setup like at school or work). Lastly, we create a client computer and connect it to the domain. And in the end, we have a working network with 1000 users that can log in and use the private NIC gateway to connect to the DC's internal internet. 
 
-High Level overview of what we are doing
+<br />
+High Level overview Illustration of what we are doing to create the above described network
 
 <p align="center">
 Overview of Project: <br/>
@@ -113,4 +115,6 @@ navigate back to VM with the DC: under DHCP click on IPv4>address leases> see th
 
 <img src="https://i.imgur.com/FmkXI5W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+This process has successfully achieved the goal of allowing the client to sign in using an account, and to be able to connect to the internet through the DC thanks to a created NIC that allows flow through the DC internet NIC. 
+Lab complete. 
 
