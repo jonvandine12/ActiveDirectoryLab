@@ -1,4 +1,5 @@
-<h1>Using Virtual Machines, Active Directory, Domain Controller, Users and Computers</h1>
+<h1>Creating a Functioning Network for 1000 Users to Sign In and use a Dedicated Private Internet Network. 
+</h1>
 
  ### [YouTube Demonstration]
 
@@ -9,7 +10,10 @@ Lab consists of a walkthrough of how to use a virtual machine to run Server 2019
 
 - <b>Virtual Box</b> 
 - <b>Active Directory</b>
+- <b>Domain Controller</b>
+- <b>RAS / NAT</b>
 - <b>Users and Computers</b>
+- <b>Power Shell</b>
 
 <h2>Environments Used </h2>
 
